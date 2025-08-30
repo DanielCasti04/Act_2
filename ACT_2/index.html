@@ -10,9 +10,8 @@
     <nav>
       <ul>
         <li><a href="#entrada">1. Registrar entrada</a></li>
-        <li><a href="#salida">2. Registrar salida y calcular pago</a></li>
-        <li><a href="#vehiculos">3. Ver vehículos actuales</a></li>
-        <li><a href="#salir">4. Salir</a></li>
+        <li><a href="#vehiculos">2. Ver vehículos actuales</a></li>
+        <li><a href="#salir">3. Salir</a></li>
       </ul>
     </nav>
 
@@ -25,32 +24,7 @@
 
         <button type="submit" id="obtener">Registrar</button>
       </form>
-    </section>
-
-    <section id="salida">
-      <h2>Registrar salida y calcular pago</h2>
-      <form>
-        <label for="placaSalida">Placa del vehículo:</label>
-        <input
-          type="text"
-          id="placaSalida"
-          name="placaSalida"
-          required
-        /><br /><br />
-
-        <label for="horaSalida">Hora de salida:</label>
-        <input
-          type="time"
-          id="horaSalida"
-          name="horaSalida"
-          required
-        /><br /><br />
-
-        <button type="submit">Calcular pago</button>
-      </form>
-    </section>
-
-    <section id="vehiculos">
+      <section id="vehiculos">
       <h2>Vehículos actuales en el parqueadero</h2>
       <ul id="lista">
         <li>
@@ -67,7 +41,6 @@
       <p>Gracias por usar el sistema de parqueaderos.</p>
     </section>
 
-    <script src="CalcularPago.js"></script>
     <script src="CreateData.js"></script>
     <script src="MostrarData.js"></script>
   </body>
