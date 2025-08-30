@@ -1,3 +1,5 @@
+let Placas = JSON.parse(localStorage.getItem("datosVehiculos")) || [];
+
 console.log(Placas);
 
 let listaExistentes = document.getElementById("lista");
